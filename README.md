@@ -106,17 +106,32 @@ mosquitto_sub -h [MQTT Server HOST] -t '#' -v
 The following commands will work:
 Shutter UP
 ```
-mosquitto_pub -h server-01 -t 'home/nodemcu/somfy/attic_blinds' -m 'u'
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'up'
 ```
 
 Shutter STOP
 ```
-mosquitto_pub -h server-01 -t 'home/nodemcu/somfy/attic_blinds' -m 's'
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'stop'
 ```
 
 Shutter DOWN
 ```
-mosquitto_pub -h server-01 -t 'home/nodemcu/somfy/attic_blinds' -m 'd'
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'down'
+```
+
+Shutter READ CODE
+```
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'read_code'
+```
+
+Shutter WRITE CODE
+```
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'write_code xxxx'
+```
+
+Reboot module
+```
+mosquitto_pub -h server-01 -t 'somfy_remote/device1/attic_blinds' -m 'reboot'
 ```
 
 Programming the blinds:
