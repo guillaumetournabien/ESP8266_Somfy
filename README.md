@@ -1,4 +1,4 @@
-# ESP8266_Somfy rev 2.01
+# ESP8266_Somfy rev 2.01 (ESP8266 - 16 channels remote , MQTT, Wifi configuration)
 
 # From original Somfy ESP8266 Remote Arduino rev 0.1
 Somfy ESP8266 Remote 433.24 RTS
