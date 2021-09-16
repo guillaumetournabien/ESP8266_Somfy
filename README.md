@@ -78,11 +78,20 @@ Firstly use the standard libraries and at least version 1.8.9 of Arduino
 
 Edit the config.h to match your environment (read previous forkes for some extra info)
 
-Change:
+Change no need:
 - [SSID] (remove brackets)
 - [SSID Password] (remove brackets)
 - IMPORTANT Change any accurance of [DEVICE ID YOU USE] 4 times int he file (remove brackets), use a string without special characters eg "abcd" not "a,b;c:/d"
 - [MQTT HOST Server] (remove brackets)
+
+# When started the PORTAIL is open for 1 minute
+Access point is created named "somfy_remote_portail"
+   default IP : 192.168.4.1
+   No password
+   
+You can easely configure your SSID, password and MQTT server.
+A new topic will be created named "somfy_remote" 
+
 
 See for example this site (have not tested this one):
 http://henrysbench.capnfatz.com/henrys-bench/arduino-projects-tips-and-more/arduino-esp8266-lolin-nodemcu-getting-started/
