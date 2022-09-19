@@ -23,7 +23,7 @@ If you want to learn more about the Somfy RTS protocol, check out Pushtack.
 HAve a central remote multichannel for all Somfy RTS remote
 
 My requirements would be:
-- Multichannel version up to 16 remote controler
+- Multichannel version up to 16 remote controlers
 - Wifi Assistant for easy configuration (based on portail after each reboot)
 - Usable with Home Assistant
 - Integrates with MQTT
